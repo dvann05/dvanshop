@@ -1,0 +1,258 @@
+/* =====================================
+   DVAN SHOP - ANIMATION.CSS
+   ===================================== */
+
+/* ========= Fade In ========= */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn .8s ease forwards;
+}
+
+/* ========= Fade Up ========= */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation: fadeUp .8s ease forwards;
+}
+
+/* ========= Fade Down ========= */
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-down {
+    animation: fadeDown .8s ease forwards;
+}
+
+/* ========= Fade Left ========= */
+
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-left {
+    animation: fadeLeft .8s ease forwards;
+}
+
+/* ========= Fade Right ========= */
+
+@keyframes fadeRight {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-right {
+    animation: fadeRight .8s ease forwards;
+}
+
+/* ========= Zoom In ========= */
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.zoom-in {
+    animation: zoomIn .6s ease forwards;
+}
+
+/* ========= Floating ========= */
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+.floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+/* ========= Pulse ========= */
+
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* ========= Bounce ========= */
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.bounce {
+    animation: bounce 1.8s infinite;
+}
+
+/* ========= Rotate ========= */
+
+@keyframes rotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotate 8s linear infinite;
+}
+
+/* ========= Shine ========= */
+
+@keyframes shine {
+
+    from {
+        background-position: -200px;
+    }
+
+    to {
+        background-position: 200px;
+    }
+}
+
+.shine {
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.4),
+        transparent
+    );
+
+    background-size: 200px 100%;
+    animation: shine 2s infinite;
+}
+
+/* ========= Hover Lift ========= */
+
+.hover-lift {
+    transition: .3s;
+}
+
+.hover-lift:hover {
+    transform: translateY(-8px);
+}
+
+/* ========= Hover Scale ========= */
+
+.hover-scale {
+    transition: .3s;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* ========= Button Hover ========= */
+
+.btn-animate {
+    transition: .3s;
+}
+
+.btn-animate:hover {
+    transform: translateY(-3px);
+}
+
+/* ========= Image Hover ========= */
+
+.image-hover {
+    overflow: hidden;
+}
+
+.image-hover img {
+    transition: .5s;
+}
+
+.image-hover:hover img {
+    transform: scale(1.08);
+}
+
+/* ========= Smooth Scroll ========= */
+
+html {
+    scroll-behavior: smooth;
+}
