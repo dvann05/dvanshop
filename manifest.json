@@ -1,0 +1,24 @@
+{
+  "name": "Dvan Shop",
+  "short_name": "DvanShop",
+  "description": "Toko Ebook Digital Premium",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f7fb",
+  "theme_color": "#16a34a",
+  "lang": "id-ID",
+  "icons": [
+    {
+      "src": "assets/logo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
