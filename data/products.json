@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Mahir ChatGPT",
+    "category": "AI",
+    "price": "Rp25.000",
+    "rating": "★★★★★",
+    "image": "assets/products/chatgpt.jpg",
+    "description": "Panduan lengkap menggunakan ChatGPT untuk belajar dan bisnis."
+  },
+  {
+    "id": 2,
+    "title": "Canva Masterclass",
+    "category": "Canva",
+    "price": "Rp30.000",
+    "rating": "★★★★★",
+    "image": "assets/products/canva.jpg",
+    "description": "Belajar desain profesional menggunakan Canva."
+  },
+  {
+    "id": 3,
+    "title": "Affiliate Marketing",
+    "category": "Bisnis",
+    "price": "Rp35.000",
+    "rating": "★★★★★",
+    "image": "assets/products/affiliate.jpg",
+    "description": "Strategi affiliate marketing dari dasar hingga mahir."
+  },
+  {
+    "id": 4,
+    "title": "Facebook Pro",
+    "category": "Facebook",
+    "price": "Rp25.000",
+    "rating": "★★★★★",
+    "image": "assets/products/facebook.jpg",
+    "description": "Panduan membangun akun Facebook Professional."
+  },
+  {
+    "id": 5,
+    "title": "Termux Mastery",
+    "category": "Termux",
+    "price": "Rp40.000",
+    "rating": "★★★★★",
+    "image": "assets/products/termux.jpg",
+    "description": "Belajar Termux untuk otomasi dan produktivitas."
+  },
+  {
+    "id": 6,
+    "title": "Excel Lengkap",
+    "category": "Excel",
+    "price": "Rp20.000",
+    "rating": "★★★★★",
+    "image": "assets/products/excel.jpg",
+    "description": "Ratusan rumus Excel untuk kerja dan bisnis."
+  }
+]
